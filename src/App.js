@@ -8,7 +8,7 @@ function App() {
   let [colors, setColors] = useState(['violet', 'blue', 'lightblue', 'green', 'greenyellow', 'yellow', 'orange', 'red'])
   let colorMap = colors.map((color, i) => {
     return (
-        <ColorBlock key= "" color={color} />
+        <ColorBlock key= {i} color={color} />
     )
   })
 
